@@ -7,6 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class McpClientDemoApplication {
 
 	public static void main(String[] args) {
+
+		System.out.println(System.getenv("PATH"));
+		System.out.println(System.getenv("JAVA_HOME"));
+		System.out.println("###########");
 		SpringApplication.run(McpClientDemoApplication.class, args);
 	}
 
