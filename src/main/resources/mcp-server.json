@@ -1,19 +1,12 @@
 {
   "mcpServers": {
     "filesystem": {
-      "command": "npx",
+      "command": "/usr/bin/npx",
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
         "/home/milos/Desktop",
         "/home/milos/Downloads"
-      ]
-    },
-    "zomato-mcp": {
-      "command": "npx",
-      "args": [
-        "mcp-remote",
-        "https://mcp-server.zomato.com/mcp"
       ]
     }
   }
